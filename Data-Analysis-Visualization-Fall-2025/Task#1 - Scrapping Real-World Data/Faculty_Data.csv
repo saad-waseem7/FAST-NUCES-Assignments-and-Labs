@@ -1,0 +1,213 @@
+ID,Name,Designation,Email,Department
+1238,Dr. Kashif Zafar,Professor  & HOD PhD Approved Supervisor,kashif.zafar@nu.edu.pk,fsc
+4027,Dr. Aamir Wali,Professor & HOD (AI&DS) PhD Approved Supervisor,aamir.wali@nu.edu.pk,fsc
+6174,Dr. Arshad Ali,Professor & HOD (CY) PhD Approved Supervisor,arshad.ali1@nu.edu.pk,fsc
+4391,Dr. Asif Mahmood Gillani,Professor PhD Approved Supervisor,asif.gilani@nu.edu.pk,fsc
+6113,Dr. Asma Naseer,Professor PhD Approved Supervisor On Leave,asma.naseer@nu.edu.pk,fsc
+9540,Dr. Maryam Bashir,Professor PhD Approved Supervisor,maryam.bashir@nu.edu.pk,fsc
+4329,Dr. Zareen Alamgir,Professor PhD Approved Supervisor,zareen.alamgir@nu.edu.pk,fsc
+6968,Dr. Aasim Qureshi,Associate Professor PhD Approved Supervisor,aasim.qureshi@nu.edu.pk,fsc
+9113,Dr. Ali Afzal Malik,Associate Professor,ali.afzal@nu.edu.pk,fsc
+4335,Dr. Asma Ahmad Farhan,Associate Professor PhD Approved Supervisor,asma.ahmad@nu.edu.pk,fsc
+5181,Dr. Rana Asif Rehman,Associate Professor PhD Approved Supervisor,r.asif@nu.edu.pk,fsc
+4261,Dr. Saira Karim,Associate Professor PhD Approved Supervisor,saira.karim@nu.edu.pk,fsc
+6048,Dr. Zeeshan Ali Khan,Associate Professor PhD Approved Supervisor,zeeshanali.khan@nu.edu.pk,fsc
+5116,Dr. Aatira Anum,Assistant Professor PhD Approved Supervisor,aatira.anum@nu.edu.pk,fsc
+6811,Dr. Abdul Qadeer,Assistant Professor,aqadeer@nu.edu.pk,fsc
+4236,Dr. Ahmad Raza,Assistant Professor PhD Approved Supervisor,muhammad.ahmadraza@nu.edu.pk,fsc
+6418,Dr. Ammar Haider,Assistant Professor,ammar.haider@nu.edu.pk,fsc
+6667,Dr. Faisal Aslam,Assistant Professor,faisal.aslam@nu.edu.pk,fsc
+4677,Dr. Farooq Ahmed,Assistant Professor,farooq.ahmad@nu.edu.pk,fsc
+6562,Dr. Hajra Waheed,Assistant Professor PhD Approved Supervisor,hajra.waheed@nu.edu.pk,fsc
+9539,Dr. Haroon Mahmood,Assistant Professor PhD Approved Supervisor On Leave,haroon.mahmood@nu.edu.pk,fsc
+5114,Dr. Mirza Mubasher Baig,Assistant Professor PhD Approved Supervisor,mubasher.baig@nu.edu.pk,fsc
+4232,Dr. Sobia Tariq Javed,Assistant Professor,sobia.tariq@nu.edu.pk,fsc
+6302,Dr. Syed Mohammad Irteza,Assistant Professor,m.Irteza@nu.edu.pk,fsc
+6255,Dr. Tahir Ejaz,Assistant Professor PhD Approved Supervisor,tahir.ejaz@nu.edu.pk,fsc
+5424,Dr. Hammad Naveed,Adj. Professor PhD Approved Supervisor On Leave,hammad.naveed@nu.edu.pk,fsc
+5466,Dr. Zeeshan Ali Rana,Assistant Professor & Incharge (SE) PhD Approved Supervisor,zeeshan.rana@nu.edu.pk,fsc
+3720,Mr. Aamir Raheem,Assistant Professor,aamir.raheem@nu.edu.pk,fsc
+5054,Ms. Abeeda Akram,Assistant Professor,abeeda.akram@nu.edu.pk,fsc
+4234,Ms. Bushra Rashid,Assistant Professor On Leave,bushra.rashid@nu.edu.pk,fsc
+4015,Mr. Ishaq Raza,Assistant Professor,ishaq.raza@nu.edu.pk,fsc
+4507,Ms. Lehmia Kiran,Assistant Professor,lehmia.kiran@nu.edu.pk,fsc
+4239,Ms. Maimoona Akram,Assistant Professor,maimoona.akram@nu.edu.pk,fsc
+5103,Mr. Mirza Waqar Baig,Assistant Professor,waqar.baig@nu.edu.pk,fsc
+5221,Ms. Noshaba Nasir,Assistant Professor On Leave,noshaba.nasir@nu.edu.pk,fsc
+5115,Ms. Samin Iftikhar,Assistant Professor,samin.iftikhar@nu.edu.pk,fsc
+5230,Mr. Waqas Manzoor,Assistant Professor,waqas.manzoor@nu.edu.pk,fsc
+6172,Ms. Aleena Ahmad,Lecturer,aleena.ahmad@nu.edu.pk,fsc
+6311,Ms. Anosha Khan,Lecturer,anosha.khan@nu.edu.pk,fsc
+6379,Ms. Ansa Liaqat,Lecturer,ansa.liaqat@nu.edu.pk,fsc
+6924,Ms. Aqsa Khalid,Lecturer,aqsa.khalid@nu.edu.pk,fsc
+6305,Ms. Arooj Khalil,Lecturer,arooj.khalil@nu.edu.pk,fsc
+6723,Ms. Asbah Khalid,Lecturer On Leave,asbah.khalid@lhr.nu.edu.pk,fsc
+6553,Mr. Danyal Farhat,Lecturer,danyal.farhat@nu.edu.pk,fsc
+6788,Ms. Eesha Tur Razia Babar,Lecturer,esha.razia@nu.edu.pk,fsc
+6274,Mr. Fraz Yousaf,Lecturer On Leave,fraz.yousaf@nu.edu.pk,fsc
+6308,Mr. Hafiz Usama Hassan Alvi,Lecturer,usama.hassan@nu.edu.pk,fsc
+6307,Mr. Hamad Ul Qudous,Lecturer,hamad.ulqudous@nu.edu.pk,fsc
+6551,Ms. Hina Iqbal,Lecturer,hina.iqbal@nu.edu.pk,fsc
+6419,Ms. Hira Butt,Lecturer,hira.butt@nu.edu.pk,fsc
+6422,Mr. Junaid Hussain Muzammal,Lecturer,junaid.hussain@nu.edu.pk,fsc
+6820,Ms. Kiran Khurshid,Lecturer,kiran.khurshid@nu.edu.pk,fsc
+6588,Mr. M. Saif Ul Islam,Lecturer,muhammad.saif@nu.edu.pk,fsc
+6277,Ms. Maham Naeem,Lecturer,maham.naeem@nu.edu.pk,fsc
+6253,Ms. Mamoona Akbar Khan,Lecturer,mamoona.akbar@nu.edu.pk,fsc
+6549,Ms. Mamoona Majid,Lecturer,mamoona.majid@nu.edu.pk,fsc
+7059,Ms. Mariam Nasim,Lecturer,maryam.nasim@nu.edu.pk,fsc
+6770,Ms. Marwa Khan,Lecturer,marwa.khan@nu.edu.pk,fsc
+6560,Ms. Mehroze Khan,Lecturer,mehroze.khan@nu.edu.pk,fsc
+6295,Ms. Momna Zaneb,Lecturer,momna.zaneb@nu.edu.pk,fsc
+6415,Mr. Mubashar Hussain,Lecturer,mubashar.hussain@nu.edu.pk,fsc
+6114,Mr. Muhammad Naveed,Lecturer,muhammad.naveed@nu.edu.pk,fsc
+7060,Mr. Muhammad Umar Bin Farooq,Lecturer,umarbin.farooq@nu.edu.pk,fsc
+6554,Ms. Namra Absar,Lecturer,namra.absar@nu.edu.pk,fsc
+7136,Ms. Nosheen Manzoor,Lecturer,nosheen.manzoor@nu.edu.pk,fsc
+7107,Ms. Rakhshan Imtiaz,Lecturer,rakhshan.imtiaz@nu.edu.pk,fsc
+5967,Mr. Razi-uddin,Lecturer,razi.uddin@nu.edu.pk,fsc
+6552,Ms. Rubab Anam Janjua,Lecturer,rubab.anam@nu.edu.pk,fsc
+7057,Ms. Rushda Muneer,Lecturer,rushda.muneer@nu.edu.pk,fsc
+5787,Ms. Saba Ghani,Lecturer,saba.ghani@nu.edu.pk,fsc
+6771,Ms. Saba Tariq,Lecturer,saba.tariq@nu.edu.pk,fsc
+6268,Mr. Saifullah Tanvir,Lecturer On Leave,saifullah.tanvir@nu.edu.pk,fsc
+6773,Mr. Sajid Ali Kazmi,Lecturer,sajid.kazmi@nu.edu.pk,fsc
+5986,Mr. Salman Shoaib,Lecturer On Leave,salman.shoaib@nu.edu.pk,fsc
+6171,Ms. Sana Fatima,Lecturer,sana.fatima@nu.edu.pk,fsc
+6719,Ms. Seemab Ayub,Lecturer,seemab.ayub@nu.edu.pk,fsc
+6925,Mr. Syed Ayaz Gillani,Lecturer,ayaz.gillani@nu.edu.pk,fsc
+6309,Mr. Syed Uzair Hussain Naqvi,Lecturer,uzair.naqvi@nu.edu.pk,fsc
+6559,Ms. Umm E Ammarah,Lecturer,umme.ammarah@nu.edu.pk,fsc
+6722,Mr. Usman Anwer,Lecturer,usman.anwer@lhr.nu.edu.pk,fsc
+6927,Mr. Waqas Ali,Lecturer,rana.waqasali@nu.edu.pk,fsc
+6662,Mr. Zeeshan Nazar,Lecturer,zeeshan.nazar@nu.edu.pk,fsc
+7064,Mr. Ahmad Jawad Mustasim,Instructor,jawad.mustasim@nu.edu.pk,fsc
+6928,Ms. Amina Qaiser,Instructor,amina.qaiser@nu.edu.pk,fsc
+6791,Mr. Aqib Zeeshan,Instructor,aqib.zeeshan@nu.edu.pk,fsc
+7063,Mr. Durraiz Waseem,Instructor,durraiz.waseem@nu.edu.pk,fsc
+6665,Ms. Eisha Khan,Instructor,eisha.khan@nu.edu.pk,fsc
+6838,Mr. Hashir Mohsineen,Instructor,hashir.mhsineen@lhr.nu.edu.pk,fsc
+7062,Mr. Muhammad Faheem,Instructor,m.faheem@nu.edu.pk,fsc
+6767,Mr. Muhammad Hasan,Instructor,m.hasan@nu.edu.pk,fsc
+7065,Mr. Muhammad Kamran,Instructor,m.kamran@nu.edu.pk,fsc
+6718,Ms. Sukhan Amir,Instructor,sukhan.amir@nu.edu.pk,fsc
+6568,Ms. Syeda Zehra Batool,Instructor On Leave,zehra.batool@nu.edu.pk,fsc
+6663,Ms. Zoha Waheed,Instructor,zoha.waheed@nu.edu.pk,fsc
+6943,Mr. Zulqarnain,Instructor On Leave,zulqarnain.Ishaq@nu.edu.pk,fsc
+6772,Mr. Amir Iqbal,Adj. Faculty,amir.iqbal@nu.edu.pk,fsc
+6176,Mr. Nauman Moazzam Hayat,Adj. Faculty,nauman.moazzam@nu.edu.pk,fsc
+6558,Ms. Samman Ashraf,Junior Lecturer On Leave,samman.ashraf@nu.edu.pk,fsc
+4198,Dr. Saima Zafar,Professor  & HOD PhD Approved Supervisor,saima.zafar@nu.edu.pk,ee
+4108,Dr. S.M. Sajid,Professor PhD Approved Supervisor,sm.sajid@nu.edu.pk,ee
+4609,Dr. Omer Saleem,Associate Professor PhD Approved Supervisor,omer.saleem@nu.edu.pk,ee
+7121,Dr. Afzal Ahmed,Assistant Professor,afzal.ahmed@nu.edu.pk,ee
+9452,Dr. Kashif Saeed,Assistant Professor,kashif.saeed@nu.edu.pk,ee
+7084,Dr. Muhammad Akmal,Assistant Professor,m.akmal@nu.edu.pk,ee
+7087,Dr. Muhammad Naeem,Assistant Professor,m.naeem@nu.edu.pk,ee
+4023,Mr. Abdul Majid,Assistant Professor,abdul.majid@nu.edu.pk,ee
+4233,Ms. Beenish Fatima,Assistant Professor,beenish.fatima@nu.edu.pk,ee
+3669,Mr. Haris Mujtaba,Assistant Professor,haris.kazmi@nu.edu.pk,ee
+3461,Mr. Mohsin Yousaf,Assistant Professor,mohsin.yousuf@nu.edu.pk,ee
+4484,Ms. Shazia Haque,Assistant Professor,shazia.haque@nu.edu.pk,ee
+3778,Ms. Tamania Javed,Assistant Professor,tamania.javaid@nu.edu.pk,ee
+7025,Ms. Abeer Bashir,Lecturer,abeer.bashir@nu.edu.pk,ee
+6289,Mr. Ahmad Hamza Nayyar,Lecturer,ahmad.hamza@nu.edu.pk,ee
+3779,Ms. Akbare Yaqub,Lecturer,akbari.yaqoob@nu.edu.pk,ee
+5218,Ms. Aroosa Umair,Lecturer,aroosa.umair@nu.edu.pk,ee
+7143,Mr. Khalid Ijaz,Lecturer,khalid.ijaz@nu.edu.pk,ee
+4809,Ms. Sara Kiran,Lecturer,sara.kiran@nu.edu.pk,ee
+6843,Mr. Syed Maaz Ahmed Rizvi,Lecturer On Leave,maaz.ahmed@nu.edu.pk,ee
+5231,Mr. Syed Muhammad Ismail,Lecturer,muhammad.ismail@nu.edu.pk,ee
+6557,Mr. Umer Altaf,Lecturer,umer.altaf@nu.edu.pk,ee
+7066,Mr. Usama Faiz,Lecturer,usama.faiz@nu.edu.pk,ee
+7005,Ms. Aliha Tanveer,Lab Engineer,aliha.tanveer@nu.edu.pk,ee
+7058,Ms. Eman Dar,Lab Engineer,eman.dar@nu.edu.pk,ee
+6830,Mr. Hafiz Muhammad Muiz Malik,Lab Engineer,muiz.malik@nu.edu.pk,ee
+7142,Ms. Haniya Waheed,Lab Engineer,haniya.waheed@nu.edu.pk,ee
+7002,Ms. Syeda Sughra Kamran,Lab Engineer,sughra.kamran@nu.edu.pk,ee
+5818,Dr. Tauqir Ahmed,Professor  & HOD PhD Approved Supervisor,tauqir.ahmed@nu.edu.pk,cv
+9451,Dr. Shahid Ali,Professor PhD Approved Supervisor,shahid.ali@nu.edu.pk,cv
+5705,Dr. Syed Ali Rizwan Bukhari,Professor PhD Approved Supervisor,syed.ali@nu.edu.pk,cv
+6047,Dr. Muhammad Umar,Associate Professor PhD Approved Supervisor,m.umar@nu.edu.pk,cv
+6941,Dr. Muhammad Azam,Assistant Professor,muhammad.azam@nu.edu.pk,cv
+9513,Mr. Ali Raza Khalid,Assistant Professor,aliraza.khalid@nu.edu.pk,cv
+5360,Mr. Umar Khan Niazi,Assistant Professor,umar.niazi@nu.edu.pk,cv
+6816,Mr. Abu Huraira,Lecturer,abu.huraira@nu.edu.pk,cv
+6041,Mr. Anns Tahir,Lecturer,anns.tahir@nu.edu.pk,cv
+6839,Mr. Asim Sharif,Lecturer,asim.sharif@nu.edu.pk,cv
+5553,Mr. Fahad Haseeb,Lecturer,fahad.haseeb@nu.edu.pk,cv
+6569,Mr. Hamza Ali,Lecturer,hamza.ali@nu.edu.pk,cv
+6573,Ms. Mahnoor Akram,Lecturer,mahnoor.akram@nu.edu.pk,cv
+7026,Ms. Sania Khalid,Lecturer,sania.khalid@nu.edu.pk,cv
+6818,Mr. Abdur Rehman Zahid,Lab Engineer,abdur.rehman@nu.edu.pk,cv
+6934,Mr. Kashif Hameed,Lab Engineer,kashif.hameed@nu.edu.pk,cv
+6933,Mr. Zaid Bin Shahid,Lab Engineer,muhammad.zaid@nu.edu.pk,cv
+3924,Dr. Hamid Hassan,Professor  & HOD PhD Approved Supervisor,hamid.hassan@nu.edu.pk,fsm
+4685,Dr. Akbar Azam,Professor PhD Approved Supervisor,akbar.azam@nu.edu.pk,fsm
+5559,Dr. Munazza Saeed,Associate Professor PhD Approved Supervisor,munazza.saeed@nu.edu.pk,fsm
+6563,Dr. Amna Farrukh,Assistant Professor On Leave,amna.farrukh@nu.edu.pk,fsm
+5227,Dr. Beenish Arshad,Assistant Professor,beenish.arshad@nu.edu.pk,fsm
+5712,Dr. Brig Mujahid Hussain,Assistant Professor PhD Approved Supervisor,mujahid.hussain@nu.edu.pk,fsm
+4629,Dr. Fatima Omer,Assistant Professor,fatima.omer@nu.edu.pk,fsm
+6561,Dr. Komal Kamran,Assistant Professor PhD Approved Supervisor,komal.kamran@nu.edu.pk,fsm
+5423,Dr. Mian Muhammad Atif,Assistant Professor PhD Approved Supervisor,mian.atif @nu.edu.pk,fsm
+7085,Dr. Muhammad Wasif Zafar,Assistant Professor,wasif.zafar@nu.edu.pk,fsm
+5427,Dr. Saif Maqbool,Assistant Professor,saif.maqbool@nu.edu.pk,fsm
+6426,Dr. Umer Iqbal,Assistant Professor PhD Approved Supervisor On Leave,umer.iqbal@nu.edu.pk,fsm
+9495,Dr. Zia Khan,Assistant Professor PhD Approved Supervisor,zia.khan@nu.edu.pk,fsm
+4483,Mr. Aamer Allauddin,Assistant Professor,allauddin@gmail.com,fsm
+4647,Mr. Shakeel Ahmad,Assistant Professor,shakeel.ahmad@nu.edu.pk,fsm
+6815,Ms. Aiza Aftab,Lecturer,aiza.aftab@nu.edu.pk,fsm
+5517,Ms. Aroosa Safdar,Lecturer,aroosa.safdar@nu.edu.pk,fsm
+6930,Mr. Bilal Qaisar,Lecturer,bilal.qaisar@nu.edu.pk,fsm
+5518,Ms. Fatima Habib,Lecturer,fatima.habib@nu.edu.pk,fsm
+6115,Ms. Ghulam Fatima,Lecturer,ghulam.fatima@nu.edu.pk,fsm
+6709,Ms. Iman Ilyas,Lecturer,iman.ilyas@nu.edu.pk,fsm
+6565,Ms. Irma Tariq,Lecturer On Leave,irma.tariq@nu.edu.pk,fsm
+6664,Ms. Khadija Aslam,Lecturer On Leave,khadija.aslam@nu.edu.pk,fsm
+7061,Ms. Misal Hasan,Lecturer,misal.hasan@nu.edu.pk,fsm
+6812,Mr. Muhammad Mobeen Ajmal,Lecturer,mobeen.ajmal@nu.edu.pk,fsm
+6566,Ms. Noor Zahid,Lecturer,noor.zahid@nu.edu.pk,fsm
+5713,Mr. Salmaan Khalil Rahman,Adjunct Lecturer,salmaan.rahman@nu.edu.pk,fsm
+6813,Ms. Sidra Salman,Lecturer,sidra.salman@nu.edu.pk,fsm
+6303,Ms. Sundas Munir,Lecturer On Leave,sundas.munir@nu.edu.pk,fsm
+6931,Ms. Zunaira Ahmed,Lecturer,zunaira.ahmed@nu.edu.pk,fsm
+7016,Ms. Alishba Nisar,Instructor,alishba.nisar@nu.edu.pk,fsm
+7017,Ms. Attiqa Sohail,Instructor,attiqa.sohail@nu.edu.pk,fsm
+6789,Ms. Fatima Zeb,Instructor,fatima.zeb@nu.edu.pk,fsm
+7015,Ms. Sadia Manzoor,Instructor,sadia.manzoor@nu.edu.pk,fsm
+6964,Ms. Syeda Fatima Jaffery,Instructor,fatima.jaffery@nu.edu.pk,fsm
+6790,Ms. Syeda Fatima Naqvi,Instructor,fatima.naqvi@nu.edu.pk,fsm
+6932,Ms. Saleena Gul,Faculty (Adjunct),saleena@nu.edu.pk,fsm
+4332,Dr. Mubashir Qayyum,Professor  & HOD PhD Approved Supervisor,mubashir.qayyum@nu.edu.pk,ss
+4018,Dr. Summaira Sarfraz,Professor Director Campus PhD Approved Supervisor,sumaira.sarfraz@nu.edu.pk,ss
+4020,Dr. Akhlaq Ahmad Bhatti,Professor Dean (Faculty of Sciences & Humanities) PhD Approved Supervisor,akhlaq.ahmad@nu.edu.pk,ss
+3712,Dr. Mazhar Hussain,Professor PhD Approved Supervisor,mazhar.hussain@nu.edu.pk,ss
+4250,Dr. Saman Shahid,Professor PhD Approved Supervisor,saman.shahid@nu.edu.pk,ss
+4584,Dr. Farasat Shamir,Associate Professor PhD Approved Supervisor On Leave,farasat.shamir@nu.edu.pk,ss
+1250,Dr. Saeeda Zia,Associate Professor PhD Approved Supervisor,saeeda.zia@nu.edu.pk,ss
+5438,Dr. Abdul Sattar,Assistant Professor,abdul.sattar@nu.edu.pk,ss
+4608,Dr. Hina Firdous,Assistant Professor PhD Approved Supervisor,hina.firdous@nu.edu.pk,ss
+9172,Dr. Hira Iqbal,Assistant Professor PhD Approved Supervisor On Leave,hira.iqbal@nu.edu.pk,ss
+6768,Dr. Iram Amjad,Assistant Professor PhD Approved Supervisor,iram.amjad@nu.edu.pk,ss
+5437,Dr. Muhammad Tahir Rashid,Assistant Professor PhD Approved Supervisor,tahir.rashid@nu.edu.pk,ss
+6926,Dr. Sara Khan,Assistant Professor PhD Approved Supervisor,sara.khan1@nu.edu.pk,ss
+9173,Dr. Tayyaba Naz,Assistant Professor PhD Approved Supervisor,tayyaba.naz@nu.edu.pk,ss
+4243,Dr. Zahida Mansoor,Assistant Professor PhD Approved Supervisor,zahida.mansoor@nu.edu.pk,ss
+4244,Ms. Hajira Ikram Butt,Assistant Professor,hajra.ikram@nu.edu.pk,ss
+4245,Mr. Zulfiqar Ali,Assistant Professor,ali.zulfiqar@nu.edu.pk,ss
+5622,Ms. Aisha Bano,Lecturer,aisha.bano@nu.edu.pk,ss
+6555,Ms. Aqsa Naz,Lecturer,aqsa.naz@nu.edu.pk,ss
+5203,Ms. Ayesha Saeed,Lecturer,ayesha.saeed@nu.edu.pk,ss
+4397,Mr. Hafiz Hamza Janjua,Lecturer,hamza.janjua@nu.edu.pk,ss
+7056,Ms. Hafiza Qurat Ul Ain Fatima,Lecturer,quratulain.fatima@nu.edu.pk,ss
+6421,Ms. Kanwal Saleem,Lecturer,kanwal.saleem@nu.edu.pk,ss
+6365,Mr. Muhammad Yaseen,Lecturer,m.yaseen@nu.edu.pk,ss
+7067,Ms. Muznah Saleha,Lecturer,muznah.saleha@nu.edu.pk,ss
+6178,Ms. Namra Fazal,Lecturer On Leave,namra.fazal@nu.edu.pk,ss
+6420,Ms. Nokhaiz Zahra,Lecturer,nokhaiz.zahra@nu.edu.pk,ss
+5795,Mr. Razm-ul-Zafar,Lecturer,razm.zafar@nu.edu.pk,ss
+6548,Ms. Rubab Arshad,Lecturer,rubab.arshad@nu.edu.pk,ss
+5337,Ms. Sarah Ahmad,Lecturer,Sarah.ahmad@nu.edu.pk,ss
+6363,Mr. Tasaduque Hussain Shah,Lecturer,tasduque.hussain@nu.edu.pk,ss
+6567,Ms. Mahnoor Chaudhry,Lecturer (English),mahnoor.chaudhary@nu.edu.pk,ss
