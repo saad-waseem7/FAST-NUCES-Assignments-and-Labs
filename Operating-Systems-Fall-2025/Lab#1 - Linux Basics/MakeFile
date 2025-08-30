@@ -1,0 +1,2 @@
+calc: add.c sub.c mul.c main.c
+	gcc -o calc add.c sub.c mul.c main.c -I.
