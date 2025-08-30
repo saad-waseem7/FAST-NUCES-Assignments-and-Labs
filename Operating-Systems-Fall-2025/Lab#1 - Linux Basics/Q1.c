@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Executing code in Linux
+
 int main() {
     int n;
     
@@ -8,4 +10,5 @@ int main() {
     scanf("%d", &n);     // Reading an integer input
     printf("%d", n);    // print data stored in n
     return 0;
+
 }
