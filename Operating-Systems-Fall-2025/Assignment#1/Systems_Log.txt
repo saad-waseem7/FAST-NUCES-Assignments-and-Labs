@@ -1,0 +1,51 @@
+﻿[2025-09-01 09:12:44] INFO    System startup sequence initiated.
+[2025-09-01 09:12:47] INFO    Network interface eth0 initialized.
+[2025-09-01 09:12:50] WARNING Disk usage at 75% on /dev/sda1.
+[2025-09-01 09:12:53] ERROR   Failed to mount /backup partition.
+[2025-09-01 09:13:01] INFO    User 'admin' logged in from 192.168.0.15.
+[2025-09-01 09:13:07] CRITICAL Kernel panic detected: CPU overload.
+[2025-09-01 09:13:12] INFO    Backup service started successfully.
+[2025-09-01 09:13:25] FAILED  Authentication attempt for user 'guest'.
+[2025-09-01 09:13:32] INFO    File /var/log/syslog rotated successfully.
+[2025-09-01 09:13:39] INFO    Process cleanup completed.
+[2025-09-01 09:13:45] WARNING High memory usage detected (85%).
+[2025-09-01 09:13:52] INFO    System running smoothly.
+[2025-09-01 09:14:05] ERROR   Unable to connect to database server.
+[2025-09-01 09:14:15] INFO    Scheduled task completed.
+[2025-09-01 09:14:28] INFO    System idle.
+[2025-09-01 09:14:40] WARNING CPU temperature reached 80°C.
+[2025-09-01 09:14:55] INFO    New SSH connection from 10.0.0.21.
+[2025-09-01 09:15:10] ERROR   Disk read failure on /dev/sdb.
+[2025-09-01 09:15:25] INFO    Service 'nginx' restarted successfully.
+[2025-09-01 09:15:40] INFO    Configuration file updated.
+[2025-09-01 09:15:55] CRITICAL Security breach detected: unauthorized root access.
+[2025-09-01 09:16:10] INFO    Backup completed without errors.
+[2025-09-01 09:16:25] FAILED  Login attempt for user 'test' from 172.16.0.8.
+[2025-09-01 09:16:40] INFO    Scheduled job executed: cleanup.sh.
+[2025-09-01 09:16:55] WARNING Network latency detected.
+[2025-09-01 09:17:10] INFO    Application 'app1' deployed successfully.
+[2025-09-01 09:17:25] ERROR   Timeout connecting to mail server.
+[2025-09-01 09:17:40] INFO    New user 'developer' created.
+[2025-09-01 09:17:55] WARNING Disk usage at 90% on /dev/sda2.
+[2025-09-01 09:18:10] INFO    Firewall rules updated.
+[2025-09-01 09:18:25] CRITICAL Database corruption detected.
+[2025-09-01 09:18:40] INFO    Kernel modules reloaded.
+[2025-09-01 09:18:55] INFO    System clock synchronized with NTP.
+[2025-09-01 09:19:10] FAILED  Backup job aborted unexpectedly.
+[2025-09-01 09:19:25] INFO    User 'root' logged out.
+[2025-09-01 09:19:40] ERROR   Permission denied while writing to /etc/hosts.
+[2025-09-01 09:19:55] INFO    Monitoring service restarted.
+[2025-09-01 09:20:10] WARNING Low disk space on /var/log (5% free).
+[2025-09-01 09:20:25] INFO    Software update completed.
+[2025-09-01 09:20:40] INFO    New device detected: USB storage.
+[2025-09-01 09:20:55] ERROR   Lost connection to backup server.
+[2025-09-01 09:21:10] INFO    Process 'worker1' terminated normally.
+[2025-09-01 09:21:25] CRITICAL Multiple authentication failures detected.
+[2025-09-01 09:21:40] INFO    Cache cleared successfully.
+[2025-09-01 09:21:55] WARNING High swap usage (95%).
+[2025-09-01 09:22:10] INFO    Log rotation script executed.
+[2025-09-01 09:22:25] FAILED  Session timeout for user 'service'.
+[2025-09-01 09:22:40] INFO    System health check completed.
+[2025-09-01 09:22:55] ERROR   Application 'app2' crashed with exit code 137.
+[2025-09-01 09:23:10] INFO    User 'guest' disconnected.
+[2025-09-01 09:23:25] INFO    Daily maintenance cycle finished.
