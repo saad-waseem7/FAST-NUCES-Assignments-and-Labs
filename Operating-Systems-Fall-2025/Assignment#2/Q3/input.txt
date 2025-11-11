@@ -1,0 +1,5 @@
+error: something failed
+warning: something minor
+error: connection lost
+info: all good
+error: timeout
