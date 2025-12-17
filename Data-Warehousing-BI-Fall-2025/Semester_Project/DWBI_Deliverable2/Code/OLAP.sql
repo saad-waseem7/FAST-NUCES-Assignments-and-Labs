@@ -1,0 +1,118 @@
+-- 1) Total transactions and total amount (global snapshot)
+SELECT
+  COUNT(*) AS total_transactions,
+  SUM(amount) AS total_amount
+FROM dw.fact_transactions;
+
+-- 2) Daily transaction volume & total amount (time series)
+SELECT
+  d.date_value AS date,
+  COUNT(*) AS tx_count,
+  SUM(f.amount) AS total_amount
+FROM dw.fact_transactions f
+JOIN dw.dim_date d ON f.date_sk = d.date_sk
+GROUP BY d.date_value
+ORDER BY d.date_value;
+
+-- 3) Fraud rate by region (region-level risk)
+SELECT
+  t.location_region,
+  COUNT(*) AS total_tx,
+  SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END) AS fraud_tx,
+  ROUND(
+    100.0 * SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END) / NULLIF(COUNT(*),0),
+    2
+  ) AS fraud_rate_pct
+FROM dw.fact_transactions f
+JOIN dw.dim_transaction_type t
+  ON f.transaction_type_sk = t.transaction_type_sk
+GROUP BY t.location_region
+ORDER BY fraud_rate_pct DESC;
+
+-- 4) Monthly fraud trend (year, month)
+SELECT
+  d.year,
+  d.month,
+  COUNT(*)  AS total_tx,
+  SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END)   AS fraud_tx,
+  ROUND(100.0 * SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END) / NULLIF(COUNT(*),0), 2) AS fraud_rate_pct
+FROM dw.fact_transactions f
+JOIN dw.dim_date d ON f.date_sk = d.date_sk
+GROUP BY d.year, d.month
+ORDER BY d.year, d.month;
+
+-- 5) Device type usage and fraud rate (device_type from dim_customer)
+SELECT
+  c.device_type,
+  COUNT(*)                                           AS total_tx,
+  SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END)    AS fraud_tx,
+  ROUND(100.0 * SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END) / NULLIF(COUNT(*),0), 2) AS fraud_rate_pct
+FROM dw.fact_transactions f
+JOIN dw.dim_customer c ON f.customer_sk = c.customer_sk
+GROUP BY c.device_type
+ORDER BY fraud_rate_pct DESC;
+
+-- 6) Risk-category vs fraud rate (bucket risk_score from dim_behavior_risk)
+SELECT
+  CASE
+    WHEN b.risk_score < 30 THEN 'Low'
+    WHEN b.risk_score BETWEEN 30 AND 70 THEN 'Medium'
+    ELSE 'High'
+  END AS risk_bucket,
+  COUNT(*)  AS total_tx,
+  SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END)    AS fraud_tx,
+  ROUND(100.0 * SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END) / NULLIF(COUNT(*),0), 2) AS fraud_rate_pct
+FROM dw.fact_transactions f
+JOIN dw.dim_behavior_risk b ON f.behavior_risk_sk = b.behavior_risk_sk
+GROUP BY risk_bucket
+ORDER BY fraud_rate_pct DESC;
+
+-- 7) High-value anomaly detection: transactions > mean + 3*stddev
+--    (This is an OLAP analytical filter that can be run on raw fact table or on same aggregate fields in MOLAP)
+WITH stats AS (
+  SELECT AVG(amount) AS mean_amt, STDDEV_POP(amount) AS std_amt FROM dw.fact_transactions
+)
+SELECT
+  f.fact_transaction_sk,
+  f.amount,
+  c.customer_name,
+  m.merchant_name,
+  d.date_value
+FROM dw.fact_transactions f
+JOIN dw.dim_customer c ON f.customer_sk = c.customer_sk
+JOIN dw.dim_merchant m ON f.merchant_sk = m.merchant_sk
+JOIN dw.dim_date d ON f.date_sk = d.date_sk
+CROSS JOIN stats
+WHERE f.amount > (stats.mean_amt + 3 * stats.std_amt)
+ORDER BY f.amount DESC;
+
+-- 8) Account flow summary: total inflow & outflow per account (aggregated)
+SELECT
+  acc,
+  SUM(total_out)   AS total_outflow,
+  SUM(total_in)    AS total_inflow
+FROM (
+  SELECT sender_account AS acc, SUM(amount) AS total_out, 0::numeric AS total_in
+  FROM dw.fact_transactions GROUP BY sender_account
+  UNION ALL
+  SELECT receiver_account AS acc, 0::numeric AS total_out, SUM(amount) AS total_in
+  FROM dw.fact_transactions GROUP BY receiver_account
+) x
+GROUP BY acc
+ORDER BY total_inflow DESC
+LIMIT 20;
+
+-- 9) CUBE example: merchant, region, month — amount and frauds for all combinations
+SELECT
+  m.merchant_name,
+  t.location_region,
+  d.month,
+  SUM(f.amount)  AS total_amount,
+  SUM(CASE WHEN f.is_fraud THEN 1 ELSE 0 END) AS fraud_tx
+FROM dw.fact_transactions f
+JOIN dw.dim_merchant m ON f.merchant_sk = m.merchant_sk
+JOIN dw.dim_transaction_type t ON f.transaction_type_sk = t.transaction_type_sk
+JOIN dw.dim_date d ON f.date_sk = d.date_sk
+GROUP BY CUBE (m.merchant_name, t.location_region, d.month)
+ORDER BY m.merchant_name NULLS FIRST, t.location_region NULLS FIRST, d.month NULLS FIRST;
+
