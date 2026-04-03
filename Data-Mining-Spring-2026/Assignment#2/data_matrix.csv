@@ -1,0 +1,13 @@
+ID,Age,Income,Experience,Satisfaction,Performance,Job_Role,Education,City,Marital_Status,HasCar,OwnsHouse,DiseaseA,DiseaseB,DiseaseC
+1,25,50,2,Low,Medium,Manager,BS,Lahore,Single,1,0,0,1,0
+2,40,80,10,High,High,Engineer,MS,Karachi,Married,1,1,0,0,0
+3,35,,5,Medium,Low,Teacher,BS,Islamabad,Single,0,0,1,0,0
+4,,60,8,High,Medium,Engineer,PhD,Lahore,Married,1,0,0,1,0
+5,50,90,15,High,High,Manager,MS,Karachi,Divorced,1,1,0,0,1
+6,28,45,3,Low,Low,Teacher,BS,Islamabad,Single,0,0,0,0,1
+7,45,,12,Medium,High,Manager,PhD,Lahore,Married,1,1,1,0,0
+8,32,55,6,Medium,Medium,Engineer,BS,Karachi,Single,0,0,0,1,0
+9,55,100,20,High,High,Manager,PhD,Islamabad,Married,1,1,0,0,0
+10,22,35,,Low,Low,Teacher,BS,Lahore,Single,0,0,1,1,0
+11,38,70,9,Medium,Medium,Engineer,MS,Karachi,Married,1,0,0,0,1
+12,48,85,14,High,High,Manager,PhD,Islamabad,Divorced,1,1,0,1,0
