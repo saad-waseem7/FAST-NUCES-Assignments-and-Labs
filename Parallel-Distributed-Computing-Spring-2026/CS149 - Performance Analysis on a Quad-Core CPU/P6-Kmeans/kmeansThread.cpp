@@ -8,8 +8,7 @@
 
 using namespace std;
 
-typedef struct
-{
+typedef struct {
   // Control work assignments
   int start, end;
 
@@ -34,14 +33,8 @@ typedef struct
  *
  * NOTE: DO NOT MODIFY THIS FUNCTION!!!
  */
-static bool stoppingConditionMet(double *prevCost, double *currCost,
-                                 double epsilon, int K)
-{
-  for (int k = 0; k < K; k++)
-  {
-    if (abs(prevCost[k] - currCost[k]) > epsilon)
-      return false;
-  }
+static bool stoppingConditionMet(double *prevCost, double *currCost, double epsilon, int K) {
+  for (int k = 0; k < K; k++) { if (abs(prevCost[k] - currCost[k]) > epsilon) { return false; } }
   return true;
 }
 
@@ -56,8 +49,7 @@ static bool stoppingConditionMet(double *prevCost, double *currCost,
  *     (must be the same for x and y).
  */
 
-inline double distSq(double *x, double *y, int nDim)
-{
+inline double distSq(double *x, double *y, int nDim) {
   double accum = 0.0;
   for (int i = 0; i < nDim; i++) {
     double diff = x[i] - y[i];
@@ -66,14 +58,11 @@ inline double distSq(double *x, double *y, int nDim)
   return accum;
 }
 
-void assignmentWorker(WorkerArgs *const args, int startM, int endM, double *localCost)
-{
-  int K = args->K;
-  int N = args->N;
+void assignmentWorker(WorkerArgs *const args, int startM, int endM, double *localCost) {
+  int K = args->K; int N = args->N;
   for (int k = 0; k < K; k++) { localCost[k] = 0.0; }
 
-  for (int m = startM; m < endM; m++)
-  {
+  for (int m = startM; m < endM; m++) {
     double minD2 = 1e30;
     int bestK = 0;
     for (int k = 0; k < K; k++) {
@@ -88,10 +77,8 @@ void assignmentWorker(WorkerArgs *const args, int startM, int endM, double *loca
   }
 }
 
-void centroidWorker(WorkerArgs *const args, int startM, int endM, double *localCentroids, int *localCounts)
-{
-  int N = args->N;
-  int K = args->K;
+void centroidWorker(WorkerArgs *const args, int startM, int endM, double *localCentroids, int *localCounts) {
+  int N = args->N; int K = args->K;
   for (int i = 0; i < K * N; i++) { localCentroids[i] = 0.0; }
   for (int i = 0; i < K; i++) { localCounts[i] = 0; }
 
@@ -102,8 +89,7 @@ void centroidWorker(WorkerArgs *const args, int startM, int endM, double *localC
   }
 }
 
-void computeAssignments(WorkerArgs *const args)
-{
+void computeAssignments(WorkerArgs *const args) {
   int nWorkers = 6;
   thread threads[nWorkers];
   int K = args->K;
@@ -125,11 +111,9 @@ void computeAssignments(WorkerArgs *const args)
   delete[] thrdCosts;
 }
 
-void computeCentroids(WorkerArgs *const args)
-{
+void computeCentroids(WorkerArgs *const args) {
   int nWorkers = 6;
-  int K = args->K;
-  int N = args->N;
+  int K = args->K; int N = args->N;
   double *allLocalCentroids = new double[nWorkers * K * N];
   int *allLocalCounts = new int[nWorkers * K];
   thread threads[nWorkers];
@@ -152,8 +136,7 @@ void computeCentroids(WorkerArgs *const args)
       args->clusterCentroids[k * N + n] = sum / divisor;
     }
   }
-  delete[] allLocalCentroids;
-  delete[] allLocalCounts;
+  delete[] allLocalCentroids; delete[] allLocalCounts;
 }
 
 /**
@@ -176,13 +159,10 @@ void computeCentroids(WorkerArgs *const args)
  * @param epsilon The algorithm is said to have converged when
  *     |currCost[i] - prevCost[i]| < epsilon for all i where i = 0, 1, ..., K-1
  */
-void kMeansThread(double *data, double *clusterCentroids, int *clusterAssignments,
-                  int M, int N, int K, double epsilon)
-{
+void kMeansThread(double *data, double *clusterCentroids, int *clusterAssignments, int M, int N, int K, double epsilon) {
 
   // Used to track convergence
-  double *prevCost = new double[K];
-  double *currCost = new double[K];
+  double *prevCost = new double[K]; double *currCost = new double[K];
 
   // The WorkerArgs array is used to pass inputs to and return output from
   // functions.
@@ -191,15 +171,10 @@ void kMeansThread(double *data, double *clusterCentroids, int *clusterAssignment
   args.clusterCentroids = clusterCentroids;
   args.clusterAssignments = clusterAssignments;
   args.currCost = currCost;
-  args.M = M;
-  args.N = N;
-  args.K = K;
+  args.M = M; args.N = N; args.K = K;
 
   // Initialize arrays to track cost
-  for (int k = 0; k < K; k++) {
-    prevCost[k] = 1e30;
-    currCost[k] = 0.0;
-  }
+  for (int k = 0; k < K; k++) { prevCost[k] = 1e30; currCost[k] = 0.0; }
 
   double totalAssign = 0, totalCentroids = 0;
   // double totalCost = 0;
@@ -210,8 +185,7 @@ void kMeansThread(double *data, double *clusterCentroids, int *clusterAssignment
     for (int k = 0; k < K; k++) { prevCost[k] = currCost[k]; }
 
     // Setup args struct
-    args.start = 0;
-    args.end = K;
+    args.start = 0; args.end = K;
 
     double t1 = CycleTimer::currentSeconds();
     computeAssignments(&args);
@@ -231,6 +205,5 @@ void kMeansThread(double *data, double *clusterCentroids, int *clusterAssignment
   printf("computeCentroids   total: %.4f sec\n", totalCentroids);
   // printf("computeCost        total: %.4f sec\n", totalCost);
 
-  delete[] currCost;
-  delete[] prevCost;
+  delete[] currCost; delete[] prevCost;
 }

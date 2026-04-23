@@ -130,9 +130,7 @@ TaskSystemParallelThreadPoolSpinning::TaskSystemParallelThreadPoolSpinning(int n
     // Implementations are free to add new class member variables
     // (requiring changes to tasksys.h).
     //
-    for (int i = 0; i < nthreads; i++) {
-        Vworker.emplace_back(&TaskSystemParallelThreadPoolSpinning::spinWorker, this);  
-    }
+    for (int i = 0; i < nthreads; i++) { Vworker.emplace_back(&TaskSystemParallelThreadPoolSpinning::spinWorker, this); }
 }
 
 TaskSystemParallelThreadPoolSpinning::~TaskSystemParallelThreadPoolSpinning()
@@ -222,9 +220,7 @@ TaskSystemParallelThreadPoolSleeping::TaskSystemParallelThreadPoolSleeping(int n
     //
     // Inside the Constructor
 
-    for (int i = 0; i < nthreads; i++) {
-        Vworker.emplace_back(&TaskSystemParallelThreadPoolSleeping::sleepWorker, this);
-    }
+    for (int i = 0; i < nthreads; i++) { Vworker.emplace_back(&TaskSystemParallelThreadPoolSleeping::sleepWorker, this); }
 }
 
 TaskSystemParallelThreadPoolSleeping::~TaskSystemParallelThreadPoolSleeping()
