@@ -1,0 +1,27 @@
+=== RUN   TestSequentialSingle
+--- PASS: TestSequentialSingle (0.65s)
+=== RUN   TestSequentialMany
+--- PASS: TestSequentialMany (0.69s)
+=== RUN   TestBasic
+--- PASS: TestBasic (1.54s)
+=== RUN   TestOneFailure
+Master: RPC /var/tmp/824-1000/mr4313-worker0 shutdown error
+--- PASS: TestOneFailure (2.27s)
+=== RUN   TestManyFailures
+Master: RPC /var/tmp/824-1000/mr4313-worker1 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker0 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker2 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker3 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker4 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker5 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker7 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker6 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker8 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker9 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker10 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker11 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker13 shutdown error
+Master: RPC /var/tmp/824-1000/mr4313-worker12 shutdown error
+--- PASS: TestManyFailures (8.35s)
+PASS
+ok  	src/mapreduce	(cached)

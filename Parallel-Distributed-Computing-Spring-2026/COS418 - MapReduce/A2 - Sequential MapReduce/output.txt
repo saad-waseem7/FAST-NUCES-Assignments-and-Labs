@@ -1,0 +1,8 @@
+=== RUN   TestSequentialSingle
+--- PASS: TestSequentialSingle (1.17s)
+=== RUN   TestSequentialMany
+--- PASS: TestSequentialMany (1.12s)
+=== RUN   TestBasic
+2026/05/11 23:40:14 Merge: open mrtmp.test-res-0: no such file or directory
+FAIL	src/mapreduce	2.341s
+FAIL
